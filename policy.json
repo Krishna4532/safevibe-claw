@@ -1,0 +1,12 @@
+{
+  "enforcement_mode": "DETERMINISTIC",
+  "allowed_scopes": [
+    "C:/Users/lenovo/Desktop/claw/project/workspace/"
+  ],
+  "blocked_scopes": [
+    "C:/Users/lenovo/Desktop/claw/project/private/",
+    "C:/Users/lenovo/.ssh/"
+  ],
+  "restricted_commands": ["rm", "del", "git push origin main"],
+  "allowed_file_types": [".py", ".md", ".json", ".txt"]
+}
